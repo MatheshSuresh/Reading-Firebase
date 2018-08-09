@@ -1,12 +1,11 @@
 
 #include <ESP8266WiFi.h>
 #include <FirebaseArduino.h>
-#include <Servo.h>
 
-#define FIREBASE_HOST "alarmclock-e7478.firebaseio.com"
-#define FIREBASE_AUTH "FGXx5q7eMlInj1gof5eiL2xe9ZA1xY6WJkEV7Njg"
-#define wifi_ssid "Hoi"
-#define wifi_pass "abcdefgh"
+#define FIREBASE_HOST "HOST"
+#define FIREBASE_AUTH "AUTH_KEY"
+#define wifi_ssid "SSID"
+#define wifi_pass "PASS"
 
 void setup() {
   // put your setup code here, to run once:
